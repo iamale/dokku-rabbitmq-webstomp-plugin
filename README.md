@@ -1,6 +1,10 @@
 RabbitMQ plugin for Dokku
 =========================
 
+This fork [enables the Web-Stomp plugin for RabbitMQ](https://github.com/iamale/dokku-rabbitmq-webstomp-dockerfiles/commit/4df2cb16cc76ebc96212b605552bec905be6054a).
+
+---
+
 Project: https://github.com/progrium/dokku
 
 Requirements
