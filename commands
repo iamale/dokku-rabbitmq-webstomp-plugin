@@ -23,7 +23,7 @@ if [[ $1 == rabbitmq:* ]]; then
     PLUGIN_ALIAS="broker"
     CONTAINER_NAME="${PLUGIN_NAME}_${APP}"
     HOST_DIR="$DOKKU_ROOT/.$PLUGIN_NAME/$APP"
-    CONTAINER_IMAGE="jlachowski/rabbitmq"
+    CONTAINER_IMAGE="iamale/rabbitmq-webstomp"
     RABBITMQ_PORT=5672
     RABBITMQ_ADMIN_PORT=15672
 fi
